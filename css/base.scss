@@ -1,0 +1,61 @@
+
+/*override specific reboot styles*/
+
+body {
+  background-color: white;
+  color: #000;
+  font-family: $proxima-nova;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.25;
+  margin-bottom: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+ol,
+ul,
+dl {
+  margin-bottom: 0;
+}
+
+address {
+  margin-bottom: 0;
+}
+
+dd {
+  margin-bottom: 0;
+}
+
+blockquote {
+  margin: 0;
+}
+
+pre {
+  margin-bottom: 0;
+}
+
+a {
+  color: $green-text;
+}
+
+  a:hover {
+    color: darken($green-text, 5%);
+  }
+
+figure {
+  margin-bottom: 0;
+}
+
+label {
+  margin-bottom: 0;
+}
+
+legend {
+  margin-bottom: 0;
+}
